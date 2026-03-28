@@ -1,0 +1,5 @@
+.env
+.stitch
+.stitch-mcp
+node_modules
+_/
