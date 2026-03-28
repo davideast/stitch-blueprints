@@ -30,11 +30,11 @@ Empirically validated instruction sentences that move a design toward a concept.
 
 `directions/` — 48 directions across type, layout, color, elevation, and concept move families
 
-### Vibes
-Dimension-specific prose descriptors. Each vibe maps to exactly one DESIGN.md section — typography, elevation, components, or dos-donts.
+### Specs
+Dimension-specific prose descriptors. Each spec maps to exactly one DESIGN.md section — typography, elevation, components, or dos-donts.
 
 ```
-vibes/
+specs/
   systems/        multi-dimensional rule sets (ring-edge-definition)
   typography/
     headline/     editorial-serif, technical-mono, left-aligned-editorial
@@ -142,7 +142,7 @@ Options: 3 · Explore · Layout ☑
 |---|---|
 | Color scheme | DESIGN.md Colors section (via Stitch token derivation) |
 | Roundedness | DESIGN.md Shape section |
-| Vibe | The DESIGN.md section it maps to |
+| Spec | The DESIGN.md section it maps to |
 | Rule set | Multiple DESIGN.md sections simultaneously |
 | Layout | Prompt body |
 | UI component | Prompt body |

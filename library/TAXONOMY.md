@@ -28,7 +28,7 @@ prompt: >-
   Remove everything that isn't load-bearing. One dominant element per section.
   Typography carries the full weight of the design. What remains should feel inevitable.
 expressed-by:
-  vibes: [tonal-layering, editorial-serif, ring-edge-definition]
+  specs: [tonal-layering, editorial-serif, ring-edge-definition]
   layouts: [hero-full-screen, look-book]
   color-schemes: [crimson-standard]
   roundedness: [sharp]
@@ -70,7 +70,7 @@ prompt: >-
   Overwhelming dark backgrounds with single blazing points of concentrated light. Every element must
   earn its brightness against the darkness.
 expressed-by:
-  vibes: [glass-blur, tonal-layering, technical-mono]
+  specs: [glass-blur, tonal-layering, technical-mono]
   layouts: [hero-full-screen, look-book]
   color-schemes: [planetary-theater, deep-space]
   roundedness: [soft]
@@ -88,7 +88,7 @@ expressed-by:
 
 **Why it exists:** Specific phrasings produce measurably better variant results than generic ones. Directions are proven formulations, not just descriptions of concepts. They have value because the wording matters.
 
-**Scope:** Cross-dimensional by definition. A direction simultaneously invokes multiple vibes, layouts, and values.
+**Scope:** Cross-dimensional by definition. A direction simultaneously invokes multiple specs, layouts, and values.
 
 **Named by:** The move being made — short, verb-forward.
 - ✓ `strip-to-essence`, `amplify-type`, `add-depth`, `editorial-weight`
@@ -104,7 +104,7 @@ entity: direction
 tags: [minimalism, simplify, whitespace, reduce, layout, typography]
 targets: minimalism
 invokes:
-  vibes: [tonal-layering, editorial-serif]
+  specs: [tonal-layering, editorial-serif]
   layouts: [hero-full-screen, look-book]
 ---
 ```
@@ -130,8 +130,8 @@ Reduces component count, opens whitespace, enlarges type, flattens elevation.
 **What it is:** A prose descriptor for a specific design dimension. Maps to exactly one DESIGN.md section. Describes how a design property looks, feels, or behaves — not which concept it expresses.
 
 **Scope:** Single-dimension. This is a hard rule.
-- If an entry touches two DESIGN.md sections → decompose into two vibes.
-- If an entry spans all dimensions → it is a Concept, not a Vibe.
+- If an entry touches two DESIGN.md sections → decompose into two specs.
+- If an entry spans all dimensions → it is a Concept, not a Spec.
 - If an entry is a coherent multi-rule system → see Rule Sets below.
 
 **Named by:** What the technique does — descriptive, not metaphorical, not attributed to a person.
@@ -140,7 +140,7 @@ Reduces component count, opens whitespace, enlarges type, flattens elevation.
 
 **Source attribution:** Goes in frontmatter `source:` field only. Never in the name.
 
-**Directory:** `library/vibes/{dimension}/`
+**Directory:** `library/specs/{dimension}/`
 - `typography/headline/`, `typography/body/`, `typography/label/`
 - `elevation/`
 - `components/buttons/`, `components/inputs/`, `components/navigation/`
@@ -195,7 +195,7 @@ references:
 ---
 
 ### Rule Set
-**What it is:** A named collection of related rules that span multiple design dimensions but form a coherent, indivisible system. The rules only work correctly when applied together — decomposing them into separate vibes loses the system's coherence.
+**What it is:** A named collection of related rules that span multiple design dimensions but form a coherent, indivisible system. The rules only work correctly when applied together — decomposing them into separate specs loses the system's coherence.
 
 **When to use instead of decomposing:** When the rules have explicit cross-dimensional dependencies. The concentric radius rule only makes sense in the context of the ring border rule. Separating them produces incomplete guidance.
 
@@ -204,7 +204,7 @@ references:
 **Named by:** What the system does.
 - ✓ `ring-edge-definition`
 
-**Directory:** `library/vibes/systems/`
+**Directory:** `library/specs/systems/`
 
 **Frontmatter:**
 ```markdown
@@ -223,7 +223,7 @@ expresses: [minimalism]
 ### Color Scheme
 **What it is:** Four deterministic hex values mapped to the four Stitch panel roles (Primary, Secondary, Tertiary, Neutral). Sets the palette directly — Stitch's tonal derivation generates the full 60+ token hierarchy from these four values.
 
-**Scope:** Single entity, four values. Not a vibe — no interpretation required.
+**Scope:** Single entity, four values. Not a spec — no interpretation required.
 
 **Named by:** An evocative name for the palette's character — not a hex value, not a description of hue.
 - ✓ `atlantic`, `noir-crimson`, `gilt-obsidian`, `crimson-standard`
@@ -267,18 +267,18 @@ expresses: [minimalism]
 ## Relationship Rules
 
 ```
-Concept  ←───────────────  expressed-by  ───────────────→  Vibe
+Concept  ←───────────────  expressed-by  ───────────────→  Spec
 Concept  ←───────────────  expressed-by  ───────────────→  Rule Set
 Concept  ←───────────────  expressed-by  ───────────────→  Layout
 Concept  ←───────────────  expressed-by  ───────────────→  Color Scheme
 Concept  ←───────────────  expressed-by  ───────────────→  Roundedness
 
 Direction  ──→  targets  ──→  Concept
-Direction  ──→  invokes  ──→  Vibe / Rule Set / Layout
+Direction  ──→  invokes  ──→  Spec / Rule Set / Layout
 ```
 
 - Relationships are declared in the **Concept** file's `expressed-by` field and the **Direction** file's `invokes` field.
-- Vibes and Layouts declare which concepts they express via `expresses:` in frontmatter — this is the reverse pointer.
+- Specs and Layouts declare which concepts they express via `expresses:` in frontmatter — this is the reverse pointer.
 - Color Schemes declare `expresses:` concepts as tags — they are not tightly coupled to concepts because a palette can express multiple concepts.
 
 ---
@@ -306,7 +306,7 @@ library/
   identities/               ← tested blueprint compositions
   directions/               ← variant instruction sentences
 
-  vibes/                    ← dimension-specific prose descriptors
+  specs/                    ← dimension-specific prose descriptors
     systems/                ← multi-dimensional rule sets
     typography/
       headline/
