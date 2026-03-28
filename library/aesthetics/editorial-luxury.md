@@ -9,7 +9,7 @@ prompt: >-
   The interface should feel like a physical artifact worth holding, not a website to navigate.
   No information density, no busy grids. Gallery tradition, not journalism tradition.
 expressed-by:
-  vibes: [editorial-serif, humanist-sans, glass-blur]
+  specs: [editorial-serif, humanist-sans, glass-blur]
   layouts: [look-book, editorial-mosaic, masonry-grid]
   color-schemes: [atlantic, gilt-obsidian]
   roundedness: [soft]

@@ -1,6 +1,6 @@
 ---
 name: "Grain Surface Texture"
-entity: vibe
+entity: spec
 slot: elevation
 type: influence
 tags: [grain, texture, analog, tactile, overlay, dark-mode, material, depth, particle]

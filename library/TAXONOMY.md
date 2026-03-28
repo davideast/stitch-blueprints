@@ -126,7 +126,7 @@ Reduces component count, opens whitespace, enlarges type, flattens elevation.
 
 ---
 
-### Vibe
+### Spec
 **What it is:** A prose descriptor for a specific design dimension. Maps to exactly one DESIGN.md section. Describes how a design property looks, feels, or behaves — not which concept it expresses.
 
 **Scope:** Single-dimension. This is a hard rule.
@@ -150,7 +150,7 @@ Reduces component count, opens whitespace, enlarges type, flattens elevation.
 ```markdown
 ---
 name: "Tonal Layering"
-entity: vibe
+entity: spec
 slot: elevation
 type: influence
 tags: [flat, no-shadows, depth-through-color, modern]
@@ -300,7 +300,6 @@ Direction  ──→  invokes  ──→  Vibe / Rule Set / Layout
 ```
 library/
   TAXONOMY.md               ← this document
-  README.md                 ← usage guide (the formula, how to compose)
 
   concepts/                 ← named design philosophies (abstract principles)
   aesthetics/               ← named visual territories (experiential character)

@@ -9,7 +9,7 @@ prompt: >-
   labels. Information density is the intent — pack it. No hero sections, no marketing whitespace,
   no centered alignment. The user came here to work.
 expressed-by:
-  vibes: [technical-mono, monospace-eyebrow, tonal-layering]
+  specs: [technical-mono, monospace-eyebrow, tonal-layering]
   layouts: [bento-box, infinite-scroll-feed, masonry-grid]
   color-schemes: [atlantic]
   roundedness: [sharp]

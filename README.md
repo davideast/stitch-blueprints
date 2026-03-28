@@ -2,9 +2,9 @@
 
 A structured vocabulary for composing Stitch screen generation prompts. The library is organized into distinct entity types — each with a specific role in the composition process.
 
-For the full specification of entity types, naming conventions, and relationships, see [TAXONOMY.md](TAXONOMY.md).
+For the full specification of entity types, naming conventions, and relationships, see [TAXONOMY.md](library/TAXONOMY.md).
 
-For the generation workflow — opening prompts, directional edits, staged redesign — see [WORKFLOW.md](WORKFLOW.md).
+For the generation workflow — opening prompts, directional edits, staged redesign — see [WORKFLOW.md](library/WORKFLOW.md).
 
 ---
 

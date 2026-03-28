@@ -9,7 +9,7 @@ prompt: >-
   appears only where it needs to be seen. Focused, professional, exact. No warm backgrounds,
   no multiple accent colors, no decoration. Every element must justify its luminosity.
 expressed-by:
-  vibes: [tonal-layering, glass-blur, editorial-serif]
+  specs: [tonal-layering, glass-blur, editorial-serif]
   layouts: [hero-full-screen, look-book]
   color-schemes: [noir-crimson, p1-obsidian-review, p3-darkroom, midnight-cartography]
   roundedness: [sharp]

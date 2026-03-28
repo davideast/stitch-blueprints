@@ -1,6 +1,6 @@
 ---
 name: "Left-Aligned Split Hero"
-entity: vibe
+entity: spec
 slot: dos-donts
 type: influence
 tags: [hero, alignment, split-layout, anti-centered, professional]

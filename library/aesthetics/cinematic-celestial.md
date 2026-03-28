@@ -9,7 +9,7 @@ prompt: >-
   luminescence against consuming void. Grand sweeping geometric curves implying orbital scale.
   Technical monospace labels. Every element must earn its brightness against the darkness.
 expressed-by:
-  vibes: [glass-blur, tonal-layering, technical-mono, monospace-eyebrow]
+  specs: [glass-blur, tonal-layering, technical-mono, monospace-eyebrow]
   layouts: [hero-full-screen, look-book]
   color-schemes: [planetary-theater, deep-space]
   roundedness: [soft]

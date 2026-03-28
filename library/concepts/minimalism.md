@@ -9,7 +9,7 @@ prompt: >-
   illustration, no competing visual elements, no shadows where tonal contrast suffices.
   What remains should feel inevitable.
 expressed-by:
-  vibes: [tonal-layering, editorial-serif, ring-edge-definition, humanist-sans]
+  specs: [tonal-layering, editorial-serif, ring-edge-definition, humanist-sans]
   layouts: [hero-full-screen, look-book, split-screen]
   roundedness: [sharp]
 ---

@@ -9,7 +9,7 @@ prompt: >-
   reading. Labels carry precise metadata. No centered section headings, no decorative illustration,
   no warm or playful palettes. The interface informs; it does not perform.
 expressed-by:
-  vibes: [editorial-serif, left-aligned-editorial, monospace-eyebrow, tonal-layering]
+  specs: [editorial-serif, left-aligned-editorial, monospace-eyebrow, tonal-layering]
   layouts: [look-book, feature-strip, editorial-mosaic]
   color-schemes: [midnight-cartography, crimson-standard]
   roundedness: [sharp]
