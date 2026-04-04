@@ -4,9 +4,10 @@ entity: direction
 tags: [elevation, flat, no-shadow, no-depth, surface, modern]
 targets: minimalism
 validated: false
+prompt: >-
+  Flatten completely. No shadows, no blur, no depth. Pure surface.
+invokes: [tonal-layering, ring-edge-definition]
 ---
-
-"Flatten completely. No shadows, no blur, no depth. Pure surface."
 
 ## When to use
 Design uses elevation and depth to create hierarchy when the hierarchy could come entirely from color and type scale.

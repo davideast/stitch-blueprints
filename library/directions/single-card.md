@@ -4,9 +4,10 @@ entity: direction
 tags: [structural, card, centered, elevated, focused, canvas]
 targets: minimalism
 validated: false
+prompt: >-
+  One giant card. Everything lives inside a single elevated container. The canvas is the margin.
+invokes: [ring-edge-definition, tonal-layering]
 ---
-
-"One giant card. Everything lives inside a single elevated container. The canvas is the margin."
 
 ## When to use
 Design has multiple competing surfaces or containers. Focus is fragmented. The content deserves a single, definitive frame.

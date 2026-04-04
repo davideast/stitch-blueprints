@@ -14,8 +14,4 @@ expressed-by:
   roundedness: [sharp]
 ---
 
-Remove everything that isn't load-bearing. What remains should feel inevitable.
-
-Confidence through absence. The negative space is not empty — it is doing work. A single dominant element per section. Navigation invisible until needed. Typography carries the full weight of the design because there is nothing else to carry it.
-
-Minimalism rejects: decorative illustration, competing visual elements, more than two type sizes per panel, shadows where tonal contrast suffices, centered heroes, icons inside buttons.
+Confidence through absence. Minimalism values what remains after everything non-essential is removed — negative space that works, typography that carries the full design weight, and single dominant elements per section. Reach for this concept when a design feels cluttered, over-decorated, or when elements compete rather than compose. Rejects decorative illustration, gratuitous color palettes, shadows where tonal contrast suffices, and more than two type sizes per panel.

@@ -4,9 +4,10 @@ entity: direction
 tags: [structural, list, reduction, scannable, no-cards, typographic]
 targets: minimalism
 validated: false
+prompt: >-
+  Collapse to a list. No cards, no images. Just a clean typographic list.
+invokes: [humanist-sans, ring-edge-definition]
 ---
-
-"Collapse to a list. No cards, no images. Just a clean typographic list."
 
 ## When to use
 Design uses cards or grid components when the underlying content is actually a list. The containers are adding visual noise without adding meaning.

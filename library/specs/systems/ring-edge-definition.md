@@ -5,18 +5,13 @@ slots: [elevation, components, shape]
 type: influence
 tags: [ring, inset-ring, concentric-radius, no-border, no-shadow, clean, professional]
 expresses: [minimalism, editorial]
+prompt: >-
+  Replace all borders and drop shadows with rings. Use outer ring at gray-950/10% opacity
+  instead of border+shadow combos. Use inset ring at 5% opacity for light-background
+  containers without shadow. Media containers get gray-950 at 2.5–5% bg, zero bottom
+  padding, no bottom border-radius, plus inset ring — content sits in the container rather
+  than floating. Nested rounded elements use concentric radius: inner = outer − padding.
+  Apply as a complete system — partial application produces incomplete results.
 ---
 
-A complete edge language built on rings rather than borders or drop shadows. Four rules that work together as a system — applying them individually produces incomplete results.
-
-**1. Outer ring replaces border + shadow**
-Any element that has both a visible edge and a shadow: remove the border entirely. Apply an outer `ring` at gray-950 / 10% opacity outside the element. The ring sits cleanly adjacent to the shadow without muddying the transition.
-
-**2. Inset ring for light-background containers**
-When a container has a light background and no shadow, use an inset ring at 5% opacity to define its boundary. More subtle than a border — it whispers the edge rather than drawing it.
-
-**3. Concave container treatment**
-Media and screenshot containers: gray-950 at 2.5–5% opacity background, zero bottom padding, no bottom border-radius — content "sits in" the container rather than floating above it. Add an inset ring at 5% opacity to define the container edge. The result reads as a recessed slot, not a floating card.
-
-**4. Concentric radius on nested rounded elements**
-When a rounded outer container holds a rounded inner element, set the inner radius to: outer radius − padding. Equal radius values on both look disconnected at small gap sizes. Concentric radii create visual harmony.
+A complete edge-definition system that replaces traditional borders and drop shadows with subtle rings and inset rings. Choose this when the design needs clean, professional container boundaries without the visual weight of borders or the depth implications of shadows. Works as a unified system — all four rules (outer ring, inset ring, concave containers, concentric radius) reinforce each other. Expresses minimalism and editorial restraint. Pairs with tonal-layering for a fully shadow-free surface language.

@@ -4,9 +4,10 @@ entity: direction
 tags: [minimalism, simplify, whitespace, reduce, layout, typography]
 targets: minimalism
 validated: true
+prompt: >-
+  Explore minimalist layouts. Use large editorial typography. Less is more.
+invokes: [editorial-serif, humanist-sans, tonal-layering, hero-full-screen]
 ---
-
-"Explore minimalist layouts. Use large editorial typography. Less is more."
 
 ## Variations
 - "Strip everything back. One element per panel. Typography is the design."
