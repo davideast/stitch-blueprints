@@ -11,9 +11,16 @@ references:
   typography.label: uppercase-tracking
   elevation: tonal-layering
   layout: look-book
+prompt: >-
+  Dark-mode editorial experience inspired by antique maps and prestige geographic publications.
+  Cold navy-black canvas with a single gold tertiary accent used exactly once per panel. Editorial-serif
+  headlines, humanist-sans body, uppercase-tracked labels. Look-book layout with full-viewport scroll-snap
+  panels. Maximum two type sizes per panel. Full-bleed imagery and typography share equal compositional
+  weight. No warm backgrounds — all warmth lives exclusively in the gold accent. Tonal layering for
+  elevation, sharp corners throughout.
 ---
 
-A dark-mode editorial experience inspired by antique maps and modern data journalism. Every screen feels like a page from a prestige geographical publication — dense with meaning, sparse with decoration. The interface feels like it was made to be printed and preserved.
+A prestige dark-mode editorial identity that channels antique cartography and modern data journalism. Choose this when you want every screen to feel like a page from a geographic atlas — dense with meaning, sparse with decoration, printed and preserved.
 
 ## Preset-Specific Rules
 

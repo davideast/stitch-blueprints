@@ -1,13 +1,19 @@
 ---
 name: "Minimalist Neo-Esoteric"
+entity: spec
 slot: overview
 type: influence
 tags: [esoteric, tarot, apothecary, dadaist, craft, analog, restrained, satirical]
 reference: Premium craft beer packaging, modern tarot card decks, high-end apothecary labels, TRVE Brewing Co. packaging
+expresses: [esoteric, craft, analog]
+prompt: >-
+  Design as a physical artifact — tarot card, apothecary label, premium craft print — not a
+  website. Extreme visual restraint applied to absurd or nonsensical content. Massive negative
+  space. A single central motif commanding complete attention. No navigation, no sidebar, no
+  clutter. Analog print palette: unbleached cream paper, charcoal ink, brass foil, a crimson
+  esoteric detail. Slow deliberate animations. Typography tension between an authoritative serif
+  (content as scripture) and a cold tracked-out geometric sans (metadata as specimen label).
+  The seriousness of the design is the joke.
 ---
 
-A design philosophy rooted in deliberate irony: extreme visual restraint applied to absurd or nonsensical content. The interface feels like a physical artifact — a tarot card, an apothecary label, a premium craft print — not a website. Massive negative space. A single central motif that commands complete attention. No navigation, no sidebar, no clutter. The seriousness of the design is the joke.
-
-Every decision references analog print: unbleached cream paper, charcoal ink, brass foil, a crimson detail that suggests something esoteric without explaining itself. Animations are slow and deliberate — nothing snaps. Typography creates tension between an authoritative serif (the content, treated as scripture) and a cold, tracked-out geometric sans (the metadata, treated as a label on a specimen jar).
-
-The aesthetic works through juxtaposition: the more restrained and monumental the design, the funnier or more profound the content inside it becomes. Apply to content that benefits from being taken more seriously than it deserves.
+A complete aesthetic system built on deliberate irony: monumental visual restraint applied to absurd content. The interface reads as a physical artifact — tarot card, apothecary label, craft print. Choose this for content that benefits from being taken more seriously than it deserves. Every decision references analog print: cream paper, charcoal ink, brass foil, esoteric crimson details.

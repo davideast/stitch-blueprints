@@ -3,10 +3,11 @@ name: "The Number"
 entity: direction
 tags: [hierarchy, metric, stat, display, data, kinfolk, reduction]
 targets: data-dense
-validated: false
+validated: true
+prompt: >-
+  The number. One metric at enormous scale, centered. Everything else is context.
+invokes: []
 ---
-
-"The number. One metric at enormous scale, centered. Everything else is context."
 
 ## When to use
 Design has a compelling metric that gets buried in surrounding content. The number is the argument — make it the entire screen.

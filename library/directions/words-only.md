@@ -3,10 +3,11 @@ name: "Words Only"
 entity: direction
 tags: [typography, no-image, no-icons, type-led, interface, reduction]
 targets: editorial
-validated: false
+validated: true
+prompt: >-
+  Words only. No images, no icons. Typography is the interface.
+invokes: []
 ---
-
-"Words only. No images, no icons. Typography is the interface."
 
 ## When to use
 Design is using imagery or iconography as decoration rather than communication. The words carry all the meaning — let them carry all the visual weight too.

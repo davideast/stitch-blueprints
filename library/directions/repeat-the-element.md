@@ -3,10 +3,11 @@ name: "Repeat the Element"
 entity: direction
 tags: [pattern, repetition, rhythm, structural, graphic, serial]
 targets:
-validated: false
+validated: true
+prompt: >-
+  Repeat the element. The pattern is the design.
+invokes: []
 ---
-
-"Repeat the element. The pattern is the design."
 
 ## When to use
 Design has a single interesting component that appears once when its repetition would create rhythm and visual system.

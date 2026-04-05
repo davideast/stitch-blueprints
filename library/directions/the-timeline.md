@@ -3,10 +3,11 @@ name: "The Timeline"
 entity: direction
 tags: [structural, timeline, chronological, spine, sequence, history]
 targets:
-validated: false
+validated: true
+prompt: >-
+  The timeline. Organize everything on a vertical spine. Time flows downward.
+invokes: []
 ---
-
-"The timeline. Organize everything on a vertical spine. Time flows downward."
 
 ## When to use
 Design has sequential or historical content being presented as a grid or card layout when the chronological relationship is the most important thing to communicate.

@@ -3,10 +3,11 @@ name: "Scale the Type"
 entity: direction
 tags: [typography, display, scale, bold, oversized, editorial]
 targets: editorial
-validated: false
+validated: true
+prompt: >-
+  Scale the type up until it almost breaks the layout. Then stop.
+invokes: [editorial-serif]
 ---
-
-"Scale the type up until it almost breaks the layout. Then stop."
 
 ## When to use
 Typography is readable but not felt. The headline is a label when it should be a presence.
