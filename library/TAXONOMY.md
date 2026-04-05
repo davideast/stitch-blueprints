@@ -103,25 +103,28 @@ name: "Strip to Essence"
 entity: direction
 tags: [minimalism, simplify, whitespace, reduce, layout, typography]
 targets: minimalism
-invokes:
-  specs: [tonal-layering, editorial-serif]
-  layouts: [hero-full-screen, look-book]
+validated: true
+prompt: >-
+  Explore minimalist layouts. Use large editorial typography. Less is more.
+invokes: [editorial-serif, humanist-sans, tonal-layering, hero-full-screen]
 ---
 ```
 
+**`prompt` field:** Required. The validated instruction sentence that gets pasted into a Stitch generation prompt to move the design. This is what makes a direction valuable — the specific wording has been tested and produces better results than generic alternatives.
+
+**`invokes` field:** A flat list of spec/layout slugs this direction tends to activate. Navigational — helps trace what a direction touches.
+
 **Body:**
 ```markdown
-"Explore minimalist layouts. Use large editorial typography. Less is more."
+## Variations
+- "Strip everything back. One element per panel. Typography is the design."
+- "Whitespace is the design. Let the content breathe."
 
 ## When to use
 Design feels cluttered or over-specified. Too many elements competing for attention.
 
 ## What it moves
 Reduces component count, opens whitespace, enlarges type, flattens elevation.
-
-## Variations
-- "Strip everything back. One element per panel. Typography is the design."
-- "Whitespace is the design. Let the content breathe."
 ```
 
 ---
@@ -156,8 +159,17 @@ type: influence
 tags: [flat, no-shadows, depth-through-color, modern]
 reference: Material Design 3, Linear, Notion
 expresses: [minimalism, data-dense]
+prompt: >-
+  Use no shadows anywhere. Convey depth entirely through surface color variation —
+  surface-container-lowest for recessed areas, surface-container for cards,
+  surface-container-high for elevated panels. Hierarchy is readable through tonal
+  contrast alone.
 ---
 ```
+
+**`prompt` field:** Required. A paste-ready generation instruction for Stitch — imperative voice, directly invokable. Stored in frontmatter for clean programmatic extraction by the MCP server.
+
+**Body:** A short selection-oriented description. What this spec does, when to choose it, what it pairs with. The body helps a human or LLM decide whether to use this blueprint — it is NOT sent to Stitch.
 
 ---
 
@@ -215,8 +227,15 @@ slots: [elevation, components, shape]
 type: influence
 tags: [ring, inset-ring, concentric-radius, no-border, clean]
 expresses: [minimalism]
+prompt: >-
+  Replace borders and drop shadows with rings. Outer ring at gray-950/10% replaces border+shadow.
+  Inset ring at 5% defines light-background containers. Concentric radius on nested rounded elements.
 ---
 ```
+
+**`prompt` field:** Required. A concise imperative instruction capturing the rule system's essence — enough for Stitch to apply the system correctly.
+
+**Body:** A selection-oriented description of the rule system, what it replaces, and when to use it instead of individual specs.
 
 ---
 
@@ -238,6 +257,22 @@ expresses: [minimalism]
 
 **Directory:** `library/values/roundedness/`
 
+**Frontmatter:**
+```markdown
+---
+name: "Sharp"
+entity: roundedness
+slot: roundedness
+type: deterministic
+value: 0
+tags: [engineering, brutalist, precise, architectural]
+prompt: >-
+  Zero corner radius. All components — buttons, cards, inputs, chips — are perfectly rectangular.
+---
+```
+
+**`prompt` field:** Required. A brief deterministic instruction for Stitch.
+
 ---
 
 ### Layout
@@ -247,6 +282,25 @@ expresses: [minimalism]
 - ✓ `look-book`, `bento-box`, `feature-strip`
 
 **Directory:** `library/structure/layouts/`
+
+**Frontmatter:**
+```markdown
+---
+name: "Hero Full Screen"
+entity: layout
+slot: layout
+type: structural
+tags: [hero, full-bleed, above-fold, statement, single-focus]
+expresses: [minimalism]
+prompt: >-
+  The hero occupies 100vh — the entire first screen. One headline, one subline, one CTA,
+  one background. Nothing below the fold competes. Maximum impact on first impression.
+---
+```
+
+**`prompt` field:** Required. A paste-ready layout instruction for Stitch — describes the spatial organization in imperative voice.
+
+**Body:** A selection-oriented description of the layout pattern, when to choose it, and what it pairs with.
 
 ---
 

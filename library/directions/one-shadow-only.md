@@ -4,9 +4,10 @@ entity: direction
 tags: [elevation, shadow, focus, depth, flat, single]
 targets: minimalism
 validated: false
+prompt: >-
+  Flatten everything except one element. Give the shadow to the thing that matters.
+invokes: [tonal-layering]
 ---
-
-"Flatten everything except one element. Give the shadow to the thing that matters."
 
 ## When to use
 Design uses shadow liberally to create depth across many elements. Elevation is everywhere, so it means nothing.

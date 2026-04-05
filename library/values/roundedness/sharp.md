@@ -1,9 +1,13 @@
 ---
 name: "Sharp"
+entity: roundedness
 slot: roundedness
 type: deterministic
 value: 0
 tags: [engineering, brutalist, precise, architectural]
+prompt: >-
+  Zero corner radius. All components are perfectly rectangular — buttons, cards, inputs, chips.
+  No rounding anywhere.
 ---
 
 `borderRadius: 0px`

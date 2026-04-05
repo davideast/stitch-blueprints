@@ -4,9 +4,10 @@ entity: direction
 tags: [color, reduction, monochromatic, restraint, graphic]
 targets: minimalism
 validated: false
+prompt: >-
+  Two colors only. Background and foreground. Nothing else.
+invokes: [editorial-serif, humanist-sans]
 ---
-
-"Two colors only. Background and foreground. Nothing else."
 
 ## When to use
 Design has a full palette when it doesn't need one. Reducing to two forces every element to justify its placement through shape and type, not color.
