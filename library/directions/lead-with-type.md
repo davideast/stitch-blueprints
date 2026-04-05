@@ -3,10 +3,11 @@ name: "Lead with Type"
 entity: direction
 tags: [editorial, typography, headline, type-led, hierarchy]
 targets: editorial
-validated: false
+validated: true
+prompt: >-
+  Lead with type. Make the headline the design. Everything else supports it.
+invokes: [editorial-serif]
 ---
-
-"Lead with type. Make the headline the design. Everything else supports it."
 
 ## When to use
 Design is visually balanced in a way that distributes attention evenly. Typography is undersized relative to its role.

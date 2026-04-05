@@ -3,10 +3,11 @@ name: "Monospace Everything"
 entity: direction
 tags: [typography, monospace, technical, terminal, precision, code]
 targets: data-dense
-validated: false
+validated: true
+prompt: >-
+  Monospace everything. Every label, every number, every heading.
+invokes: []
 ---
-
-"Monospace everything. Every label, every number, every heading."
 
 ## When to use
 Design should feel like a precision instrument or technical interface but has humanist or proportional type that softens it.

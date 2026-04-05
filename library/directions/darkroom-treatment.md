@@ -3,10 +3,11 @@ name: "Darkroom Treatment"
 entity: direction
 tags: [cinematic-dark, dark-mode, contrast, precision, moody]
 targets: cinematic-dark
-validated: false
+validated: true
+prompt: >-
+  Darkroom treatment. Near-black canvas, precise light, maximum contrast.
+invokes: []
 ---
-
-"Darkroom treatment. Near-black canvas, precise light, maximum contrast."
 
 ## When to use
 Design needs cinematic dark-mode character. Moody, controlled, professional — not just a color-inverted light design.

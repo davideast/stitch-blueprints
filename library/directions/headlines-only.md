@@ -3,10 +3,11 @@ name: "Headlines Only"
 entity: direction
 tags: [typography, reduction, body-copy, headlines, scannable, bold]
 targets: editorial
-validated: false
+validated: true
+prompt: >-
+  Remove the body copy. Headlines only. If it can't be said in a headline, cut it.
+invokes: []
 ---
-
-"Remove the body copy. Headlines only. If it can't be said in a headline, cut it."
 
 ## When to use
 Design has paragraphs of supporting copy that soften and delay the core messages. The headlines are strong — let them stand alone.

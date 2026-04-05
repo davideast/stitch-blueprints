@@ -3,10 +3,11 @@ name: "Newspaper Grid"
 entity: direction
 tags: [editorial, dense, grid, authoritative, structured, columns]
 targets: editorial
-validated: false
+validated: true
+prompt: >-
+  Newspaper grid. Dense, authoritative, typographically structured.
+invokes: [editorial-serif]
 ---
-
-"Newspaper grid. Dense, authoritative, typographically structured."
 
 ## When to use
 Design is too open or spacious for its content volume. Needs journalistic density and column structure.

@@ -3,10 +3,11 @@ name: "Flip Hierarchy"
 entity: direction
 tags: [structural, hierarchy, contrast, unexpected, secondary, hero]
 targets:
-validated: false
+validated: true
+prompt: >-
+  Flip the hierarchy. Make the secondary stat the hero element.
+invokes: []
 ---
-
-"Flip the hierarchy. Make the secondary stat the hero element."
 
 ## When to use
 Design is predictable — the most obvious element is the largest. Needs surprise or a different point of emphasis.

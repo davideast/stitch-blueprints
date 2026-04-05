@@ -3,10 +3,12 @@ name: "Promote the Label"
 entity: direction
 tags: [hierarchy, label, category, typographic, unexpected, inversion]
 targets:
-validated: false
+validated: true
+prompt: >-
+  Promote the label. The category tag becomes the dominant typographic element. The title
+  becomes the caption.
+invokes: []
 ---
-
-"Promote the label. The category tag becomes the dominant typographic element. The title becomes the caption."
 
 ## When to use
 Design has predictable title-first hierarchy. The label or eyebrow category text is small and subservient when it could carry more visual weight than the content below it.

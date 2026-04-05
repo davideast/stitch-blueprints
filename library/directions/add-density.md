@@ -3,10 +3,11 @@ name: "Add Density"
 entity: direction
 tags: [data-dense, density, information, grid, compact]
 targets: data-dense
-validated: false
+validated: true
+prompt: >-
+  Add density. More information per panel. Grid-align everything.
+invokes: [instrument-panel]
 ---
-
-"Add density. More information per panel. Grid-align everything."
 
 ## When to use
 Design has too much breathing room for its data context. Feels like a marketing page when it should feel like a tool.

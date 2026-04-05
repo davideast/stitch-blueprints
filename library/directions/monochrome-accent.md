@@ -3,10 +3,11 @@ name: "Monochrome Accent"
 entity: direction
 tags: [color, accent, desaturate, focus, contrast, single-color]
 targets:
-validated: false
+validated: true
+prompt: >-
+  Desaturate everything except one element. Make that the only color on screen.
+invokes: []
 ---
-
-"Desaturate everything except one element. Make that the only color on screen."
 
 ## When to use
 Design has too many colors competing. The accent is lost in a saturated field.
