@@ -1,9 +1,15 @@
 ---
 name: "The Darkroom"
+entity: color-scheme
 slot: color-scheme
 type: deterministic
 mode: dark
 tags: [dark-mode, cyan, photography, high-contrast]
+prompt: >-
+  Primary #EBEBEB near-white for text on dark canvas. Secondary #9E9E9E medium gray for
+  supporting structure. Tertiary #00BCD4 vivid cyan for CTA accent. Neutral #121212
+  near-black dark mode canvas. Note: vivid cyan may route to primary-container rather
+  than tertiary family due to chromatic dominance reinterpretation.
 ---
 
 ## Color Roles
@@ -25,4 +31,4 @@ tags: [dark-mode, cyan, photography, high-contrast]
 
 ## Notes
 
-The LLM reinterpreted the vivid cyan Tertiary as the primary brand color and assigned it to `primary-container` rather than the tertiary family. When Primary is specified as near-white (a text/content color) and Tertiary is the most chromatic, Stitch's semantic engine may override the explicit role label and assign by chromatic dominance. This is an example of role swapping — the label was not honored.
+The LLM reinterpreted vivid cyan Tertiary as the primary brand color and assigned it to `primary-container` rather than the tertiary family. When Primary is near-white and Tertiary is the most chromatic, Stitch may override the role label and assign by chromatic dominance. Example of role swapping.

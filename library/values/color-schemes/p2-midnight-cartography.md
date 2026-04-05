@@ -1,9 +1,15 @@
 ---
 name: "Midnight Cartography"
+entity: color-scheme
 slot: color-scheme
 type: deterministic
 mode: light
 tags: [dark-navy, amber, editorial, cartographic]
+prompt: >-
+  Primary #2C3E6B deep navy for text and headings. Secondary #505F7C muted slate blue for
+  supporting structure. Tertiary #735C00 dark amber/gold for accent — note this is muted
+  and produces a dark CTA. Neutral #F8F6F0 warm parchment canvas. For a vivid gold CTA,
+  replace Tertiary with ~#B8860B.
 ---
 
 ## Color Roles
@@ -27,4 +33,4 @@ tags: [dark-navy, amber, editorial, cartographic]
 
 ## Notes
 
-Tertiary was specified as a muted dark amber rather than a vivid mid-lightness hex. The CTA (`bg-tertiary`) is dark and low-contrast against light backgrounds. To get a vivid gold CTA, the Tertiary input should be closer to #B8860B (HSL ~43°, S 62%, L 38%) or lighter.
+Tertiary was specified as a muted dark amber rather than a vivid mid-lightness hex. The CTA is dark and low-contrast against light backgrounds. To get a vivid gold CTA, the Tertiary input should be closer to #B8860B (HSL ~43°, S 62%, L 38%) or lighter.
