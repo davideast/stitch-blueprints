@@ -1,11 +1,13 @@
 ---
 name: "Rounded"
+entity: roundedness
 slot: roundedness
 type: deterministic
 value: 16
 tags: [friendly, consumer, soft, approachable]
+prompt: >-
+  Apply borderRadius: 16px to all components. Generous corner rounding that conveys warmth,
+  accessibility, and consumer-grade friendliness.
 ---
 
-`borderRadius: 16px`
-
-Generous corner rounding across all components. Conveys warmth, accessibility, and consumer-grade friendliness. Pairs well with playful typography and vibrant palettes. Avoid pairing with sharp editorial or data-dense layouts — the softness conflicts with information density.
+Generous 16px corner rounding across all components. Choose this when you want warmth and approachability — consumer apps, playful brands, friendly interfaces. Pairs well with vibrant palettes and playful typography. Avoid pairing with sharp editorial or data-dense layouts where softness conflicts with information density.

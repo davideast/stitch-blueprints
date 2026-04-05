@@ -3,10 +3,11 @@ name: "Add a Frame"
 entity: direction
 tags: [border, frame, canvas, contained, formal, artifact]
 targets:
-validated: false
+validated: true
+prompt: >-
+  Frame the canvas. Add a border around the entire page. Make it a contained object.
+invokes: []
 ---
-
-"Frame the canvas. Add a border around the entire page. Make it a contained object."
 
 ## When to use
 Design bleeds to the viewport edge when a border would give it the quality of a framed object — a poster, a print, something with edges.

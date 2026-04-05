@@ -1,10 +1,16 @@
 ---
 name: "Minimalist Neo-Esoteric"
+entity: color-scheme
 slot: color-scheme
 type: deterministic
 mode: light
 tags: [esoteric, tarot, apothecary, craft, charcoal, gold, crimson, cream]
 reference: Modern tarot card decks, high-end apothecary labels
+prompt: >-
+  Primary #1A1818 rich charcoal for all text and the central arch container. Secondary
+  #C8A963 matte brass/muted gold for content text inside dark containers and interactive
+  elements. Tertiary #9F2B2A deep crimson used exclusively as micro-accent for offset
+  drop-shadows and focus states. Neutral #EBEAE5 warm alabaster cream canvas.
 ---
 
 ## Color Roles
@@ -16,12 +22,8 @@ reference: Modern tarot card decks, high-end apothecary labels
 
 ## HSL Warning
 
-Tertiary `#9F2B2A` sits at approximately HSL(1°, 58%, 39%) — just below the recommended S ≥ 60% and L ≥ 40% thresholds. This may produce a muted tertiary token family in Stitch's derivation. This is acceptable for this palette because the crimson is intentionally not a CTA color — it is a micro-accent only. Expect Stitch's CTA markup to fall back to the primary (charcoal) family, which is correct for this design: the gold circle button should be implemented as a custom element, not a standard CTA token.
-
-## Observed Token Output
-
-> Not yet observed — generate and extract Tailwind config.
+Tertiary `#9F2B2A` sits at approximately HSL(1°, 58%, 39%) — just below the recommended S ≥ 60% and L ≥ 40% thresholds. This may produce a muted tertiary token family in Stitch's derivation. This is acceptable for this palette because the crimson is intentionally not a CTA color — it is a micro-accent only.
 
 ## Notes
 
-This palette inverts the standard luminance CTA model. The Secondary (gold) drives the interactive circle button, not the Tertiary. The Tertiary is purely atmospheric — a 1px crimson offset shadow or focus ring. The neutral cream canvas is the most important decision: it makes the charcoal arch read as a physical artifact rather than a UI element.
+This palette inverts the standard luminance CTA model. The Secondary (gold) drives the interactive circle button, not the Tertiary. The Tertiary is purely atmospheric — a 1px crimson offset shadow or focus ring. The cream canvas makes the charcoal arch read as a physical artifact.

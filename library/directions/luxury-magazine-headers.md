@@ -3,10 +3,11 @@ name: "Luxury Magazine Headers"
 entity: direction
 tags: [editorial-luxury, magazine, hero, typography, headers, large-type]
 targets: editorial-luxury
-validated: false
+validated: true
+prompt: >-
+  Explore luxury magazine aesthetic with large hero typographic headers.
+invokes: [editorial-serif]
 ---
-
-"Explore luxury magazine aesthetic with large hero typographic headers."
 
 ## When to use
 Design reads as functional but not premium. Typography is undersized or neutral. Needs editorial weight and physical-artifact quality.

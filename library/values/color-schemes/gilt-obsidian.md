@@ -1,10 +1,16 @@
 ---
 name: "Gilt Obsidian"
+entity: color-scheme
 slot: color-scheme
 type: deterministic
 mode: light
 tags: [black, gold, crimson, cream, esoteric, tarot, apothecary, luxury, analog]
 reference: Classic luxury print, tarot card decks, premium apothecary packaging, gold-foil letterpress
+prompt: >-
+  Primary #0A0A0A near-absolute black for all text and the central arch container. Secondary
+  #CC0033 vivid crimson for accent fills and secondary surfaces. Tertiary #D4AF37 classic
+  gold for CTAs and interactive elements. Neutral #F5E6D3 warm peach cream canvas. Black
+  and gold define the core with crimson as a sparing esoteric accent.
 ---
 
 ## Color Roles
@@ -26,10 +32,6 @@ This palette has 5 colors but Stitch's model has 4 roles. The fifth color, `#FFF
 
 `#CC0033` (crimson) as Secondary is semantically awkward. Stitch will derive supporting UI — borders, captions, metadata text — from the Secondary family. Vivid crimson at L40% in those roles will produce loud supporting elements. Option B (dropping crimson from the role model and using it as a custom accent) is more faithful to the design intent, where crimson appears only as a 1px offset shadow or focus state — never as a surface or supporting text color.
 
-## Observed Token Output
-
-> Not yet observed — generate and extract Tailwind config.
-
 ## Notes
 
-The defining duo is the near-black Primary and the gold Tertiary. The crimson is the surprise — used sparingly, it reads as esoteric and handcrafted. Used broadly (as a token-derived Secondary), it becomes aggressive. Treat it as a decoration color outside the token system.
+The defining duo is near-black Primary and gold Tertiary. Crimson is the surprise — used sparingly it reads as esoteric and handcrafted; used broadly it becomes aggressive. Treat it as a decoration color outside the token system.

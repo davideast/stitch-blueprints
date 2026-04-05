@@ -1,9 +1,15 @@
 ---
 name: "Obsidian Review"
+entity: color-scheme
 slot: color-scheme
 type: deterministic
 mode: light
 tags: [dark-primary, crimson, dramatic, monochromatic-base]
+prompt: >-
+  Primary #1A1A2E near-black navy for text and headings. Secondary #2D2D44 dark muted navy
+  for supporting text and borders. Tertiary #C0392B vivid crimson for CTA accent. Neutral
+  #F5F5F0 warm off-white canvas. Note: crimson Tertiary may route to surface-tint rather
+  than tertiary token due to dark-toned Primary in HCT space.
 ---
 
 ## Color Roles
@@ -26,4 +32,4 @@ tags: [dark-primary, crimson, dramatic, monochromatic-base]
 
 ## Notes
 
-The crimson Tertiary did not land in `tertiary` or `tertiary-container` as expected. Both Primary (#1A1A2E) and Tertiary (#C0392B) are dark-toned in HCT perceptual space, causing the vivid color to route to `surface-tint` instead. This is an anomalous case — the vivid Tertiary should be HSL L 40–65% to land predictably.
+The crimson Tertiary did not land in `tertiary` or `tertiary-container` as expected. Both Primary and Tertiary are dark-toned in HCT perceptual space, causing the vivid color to route to `surface-tint` instead. Anomalous case — vivid Tertiary should be HSL L 40–65% to land predictably.

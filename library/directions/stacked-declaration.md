@@ -3,10 +3,12 @@ name: "Stacked Declaration"
 entity: direction
 tags: [typography, stacked, weight, rhythm, editorial, poetic]
 targets: editorial
-validated: false
+validated: true
+prompt: >-
+  Stacked declaration. Each phrase on its own line, different weight. The page is a
+  statement.
+invokes: [editorial-serif]
 ---
-
-"Stacked declaration. Each phrase on its own line, different weight. The page is a statement."
 
 ## When to use
 Design has a multi-part headline or value proposition being compressed into a single line. Each phrase has independent weight and deserves its own typographic moment.

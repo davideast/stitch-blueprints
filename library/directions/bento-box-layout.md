@@ -3,10 +3,11 @@ name: "Bento Box Layout"
 entity: direction
 tags: [structural, bento, modular, panels, grid, one-idea]
 targets: minimalism
-validated: false
+validated: true
+prompt: >-
+  Bento box. Break into modular panels. One idea per panel.
+invokes: []
 ---
-
-"Bento box. Break into modular panels. One idea per panel."
 
 ## When to use
 Design has multiple content areas competing for space without clear structure. Content feels poured rather than organized.

@@ -1,10 +1,15 @@
 ---
 name: "Testimonial Photo Card"
+entity: decoration
 slot: decoration
 type: structural
 tags: [testimonial, photo-background, gradient-shim, quote, high-impact]
+expresses: []
+prompt: >-
+  Create a testimonial card where a portrait photo fills the entire card background. Apply
+  a dark gradient shim over the bottom portion for text legibility. Place white quote text
+  over the shim with attribution (name, role) below. Requires real portrait photography —
+  no icon avatars or initials.
 ---
 
-Testimonial card where a portrait photo fills the entire card background. A dark gradient shim covers the bottom portion of the photo, ensuring white quote text is legible against any image. The quote sits over the shim; attribution (name, role) sits below it.
-
-Significantly more visually impactful than the standard avatar + indented quote treatment. Works best in a carousel or multi-card row. Requires real portrait photography — do not use icon avatars or initials with this treatment.
+A high-impact testimonial treatment where portrait photography fills the entire card with a gradient shim for text legibility. Far more visually striking than standard avatar + quote layouts. Choose this when you have real portrait photos and want testimonials that feel cinematic. Works best in a carousel or multi-card row.

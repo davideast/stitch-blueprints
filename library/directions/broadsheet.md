@@ -3,10 +3,11 @@ name: "Broadsheet"
 entity: direction
 tags: [editorial, print, newspaper, columns, dense, artifact, material]
 targets: editorial
-validated: false
+validated: true
+prompt: >-
+  Broadsheet. Narrow columns, dense type, newsprint rhythm.
+invokes: [editorial-serif, newspaper-grid]
 ---
-
-"Broadsheet. Narrow columns, dense type, newsprint rhythm."
 
 ## When to use
 Design needs the authority and density of print journalism. Too much whitespace is making content feel tentative rather than definitive.

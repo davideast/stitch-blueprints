@@ -3,10 +3,11 @@ name: "Horizontal Stack"
 entity: direction
 tags: [structural, layout, bands, sections, full-width, scroll]
 targets:
-validated: false
+validated: true
+prompt: >-
+  Stack it. Full-width horizontal bands, one idea each. Top to bottom.
+invokes: []
 ---
-
-"Stack it. Full-width horizontal bands, one idea each. Top to bottom."
 
 ## When to use
 Design has multiple content areas without clear spatial logic. Content is competing rather than sequencing.

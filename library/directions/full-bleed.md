@@ -3,10 +3,11 @@ name: "Full Bleed"
 entity: direction
 tags: [structural, hero, viewport, padding, immersive, scale]
 targets: cinematic-dark
-validated: false
+validated: true
+prompt: >-
+  Full-bleed. Remove padding from the hero. Let the content own the viewport.
+invokes: [hero-full-screen]
 ---
-
-"Full-bleed. Remove padding from the hero. Let the content own the viewport."
 
 ## When to use
 Hero section feels contained or padded when it should feel immersive and edge-to-edge.

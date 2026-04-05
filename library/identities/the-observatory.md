@@ -11,9 +11,16 @@ references:
   typography.label: monospace-eyebrow
   elevation: glass-blur
   layout: hero-full-screen
+prompt: >-
+  Dark-mode depth experience built on parallax atmospheric layers. Deep space canvas with content at
+  distinct altitudes — background star fields at low opacity and high blur, mid-layer structural frames
+  at medium contrast, foreground text and instruments at full contrast and sharpness. Technical-mono
+  headlines, humanist-sans body, monospace-eyebrow labels. Glass-blur elevation. Hero full-screen layout
+  with parallax scroll. Entirely cool astronomical palette — no warm colors anywhere. No decorative
+  illustration; depth comes from real atmospheric layering only.
 ---
 
-A dark-mode experience built on the principle of depth. The canvas is deep space. Content exists at different altitudes — background star fields drift, atmospheric gradients flow at medium speed, foreground instruments and text are fixed and precise. The interface feels like looking through a telescope — infinite depth behind a glass instrument. Cool, precise, astronomical. No warmth anywhere.
+An astronomical dark-mode identity built on the principle of infinite depth. Choose this when you want the interface to feel like looking through a telescope — cool, precise, and layered in altitude. Every scroll position reveals a distinct atmospheric plane.
 
 ## Preset-Specific Rules
 

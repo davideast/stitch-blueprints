@@ -1,10 +1,14 @@
 ---
 name: "Monospace Eyebrow"
+entity: spec
 slot: typography.label
 type: influence
 tags: [monospace, eyebrow, uppercase, technical, section-marker]
+expresses: []
+prompt: >-
+  Section eyebrow labels use monospace font (Geist Mono preferred), all uppercase,
+  tracking-wider, text-xs, gray-600. The monospace font must differ from the headline
+  and body fonts. This treatment distinguishes UI chrome from content.
 ---
 
-Section labels (eyebrow text — the small marker above a section heading) use a fixed treatment: monospace font (Geist Mono preferred), all uppercase, wide letter-spacing (`tracking-wider`), small size (`text-xs`), muted gray (`gray-600`).
-
-The monospace font makes short section labels feel technical and precise rather than generic. This treatment clearly distinguishes UI chrome from content and gives sections a structured, publication-quality identity. Do not use the same font as the headline or body for eyebrow text.
+Technical, precise section labels using monospace font — distinguishing UI chrome from content with a publication-quality feel. Choose this when eyebrow text should feel like a system marker rather than decorative typography. Pairs well with editorial or technical headline specs.

@@ -3,10 +3,11 @@ name: "Warm Up"
 entity: direction
 tags: [color, temperature, warm, amber, cream, analog, human]
 targets:
-validated: false
+validated: true
+prompt: >-
+  Warm it up. Amber, cream, warm white. No cool tones.
+invokes: []
 ---
-
-"Warm it up. Amber, cream, warm white. No cool tones."
 
 ## When to use
 Design feels cold, clinical, or sterile when it should feel considered, human, or tactile.

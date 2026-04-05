@@ -3,10 +3,11 @@ name: "Uppercase Declaration"
 entity: direction
 tags: [typography, uppercase, caps, formal, bold, declaration, institutional]
 targets: editorial
-validated: false
+validated: true
+prompt: >-
+  Uppercase everything. Make it a declaration, not a conversation.
+invokes: []
 ---
-
-"Uppercase everything. Make it a declaration, not a conversation."
 
 ## When to use
 Design tone is too conversational or approachable when it should be authoritative. Mixed-case type reads as friendly when the content demands weight.

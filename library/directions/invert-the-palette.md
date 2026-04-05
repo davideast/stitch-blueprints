@@ -3,10 +3,11 @@ name: "Invert the Palette"
 entity: direction
 tags: [color, dark-mode, light-mode, inversion, contrast, flip]
 targets:
-validated: false
+validated: true
+prompt: >-
+  Invert the palette. What was light goes dark. What was dark goes light.
+invokes: []
 ---
-
-"Invert the palette. What was light goes dark. What was dark goes light."
 
 ## When to use
 Design is strong but feels stuck in one mode. Exploring the inverse often reveals which version has more character.

@@ -3,10 +3,11 @@ name: "Type Poster"
 entity: direction
 tags: [typography, poster, no-image, display, kinfolk, editorial]
 targets: editorial
-validated: false
+validated: true
+prompt: >-
+  No image. Type fills the viewport. The words are the visual.
+invokes: [editorial-serif]
 ---
-
-"No image. Type fills the viewport. The words are the visual."
 
 ## When to use
 Design is relying on imagery that isn't exceptional. The concept or headline is strong enough to stand alone. Typography can carry the full visual weight.

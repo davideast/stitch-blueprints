@@ -3,10 +3,11 @@ name: "Cool Down"
 entity: direction
 tags: [color, temperature, cool, blue, desaturate, clinical, precision]
 targets: data-dense
-validated: false
+validated: true
+prompt: >-
+  Cool it down. Remove all warmth. Blue-white or blue-black only.
+invokes: []
 ---
-
-"Cool it down. Remove all warmth. Blue-white or blue-black only."
 
 ## When to use
 Design has warm tones (amber, cream, warm white) that are softening a context that should feel precise, clinical, or astronomical.

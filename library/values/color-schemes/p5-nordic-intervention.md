@@ -1,9 +1,15 @@
 ---
 name: "Nordic Intervention"
+entity: color-scheme
 slot: color-scheme
 type: deterministic
 mode: light
 tags: [navy, minimal, nordic, cool-toned]
+prompt: >-
+  Primary #2E59A7 medium navy blue for text and headings. Secondary #50606F cool slate for
+  supporting structure. Tertiary #8D4A00 dark burnt orange accent — muted, produced muted
+  CTA. Neutral #F4F6F8 cool off-white canvas. Note: generator used bg-primary for CTAs
+  rather than tertiary. For vivid CTA, replace Tertiary with a higher-saturation mid-lightness value.
 ---
 
 ## Color Roles
@@ -28,4 +34,4 @@ tags: [navy, minimal, nordic, cool-toned]
 
 ## Notes
 
-The markup generator used `bg-primary` (dark navy) rather than a tertiary token for CTAs. This suggests the generator de-prioritized the muted tertiary family and fell back to the primary family for calls-to-action. For a vivid Nordic CTA, replace the Tertiary with a higher-saturation, mid-lightness value (e.g. a vivid teal or amber at HSL L 45–60%).
+The generator used `bg-primary` (dark navy) rather than a tertiary token for CTAs. The muted tertiary family was de-prioritized. For a vivid Nordic CTA, replace Tertiary with a higher-saturation, mid-lightness value (e.g. vivid teal or amber at HSL L 45–60%).

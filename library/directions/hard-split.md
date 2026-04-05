@@ -3,10 +3,11 @@ name: "Hard Split"
 entity: direction
 tags: [structural, layout, split-screen, two-column, divide, contrast]
 targets:
-validated: false
+validated: true
+prompt: >-
+  Split it hard. Strict 50/50 vertical divide. Two worlds on one screen.
+invokes: []
 ---
-
-"Split it hard. Strict 50/50 vertical divide. Two worlds on one screen."
 
 ## When to use
 Design has two content areas or perspectives that are being merged when they should be held in contrast. The tension between them is the design.

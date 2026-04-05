@@ -1,10 +1,16 @@
 ---
 name: "Atlantic"
+entity: color-scheme
 slot: color-scheme
 type: deterministic
 mode: light
 tags: [navy, maritime, gold, nautical, institutional, preppy, heritage, tonal]
 reference: Naval heritage, Ivy League institutions, nautical charts, classic American preppy, maritime museums
+prompt: >-
+  Primary #1A2744 deep navy for all text and headings. Secondary #3D5A80 slate blue for
+  borders, captions, metadata. Tertiary #D9AE5E vivid gold for CTAs and interactive elements.
+  Neutral #E0E1DD cool silver-gray canvas. Tonal blue progression from dark navy through
+  slate to silver with a single warm gold accent.
 ---
 
 ## Color Roles
@@ -22,10 +28,6 @@ reference: Naval heritage, Ivy League institutions, nautical charts, classic Ame
 
 Original gold `#C9A86C` sat at HSL(39°, 46%, 61%) — S=46% is 14 points below the S≥60% threshold. Nudged to `#D9AE5E` at HSL(39°, 62%, 61%) — same hue and lightness, saturation brought above threshold. The visual difference is subtle; the character of the gold is preserved.
 
-## Observed Token Output
-
-> Not yet observed — generate and extract Tailwind config.
-
 ## Notes
 
-A tonal blue progression (dark navy → slate → powder → silver) with a single warm gold accent. The palette reads as heritage institutional — serious, measured, earned. The gold CTA lands with warmth against the cool canvas, creating chromatic contrast without aggression. This palette favors the tonal layering elevation system — the blue progression creates natural depth without shadows.
+A tonal blue progression with a single warm gold accent. The palette reads as heritage institutional — serious, measured, earned. Favors the tonal layering elevation system.

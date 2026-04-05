@@ -5,6 +5,12 @@ slot: color-scheme
 type: deterministic
 mode: dark
 tags: [dark-mode, cyan, navy, amber, void, astronomical, cinematic, chiaroscuro, planetary]
+prompt: >-
+  Neutral #050505 void black canvas at 2% lightness. Primary #6CD3DF luminous cyan for
+  text and content — glowing chromatic typography, not neutral white. Secondary #0A2342
+  deep navy for atmospheric volume and dimensional weight. Tertiary #C78B50 glowing amber
+  accent for tension and warmth. Unconventional mapping: Primary carries chromatic energy
+  rather than neutral legibility.
 ---
 
 ## Color Roles
@@ -16,16 +22,12 @@ tags: [dark-mode, cyan, navy, amber, void, astronomical, cinematic, chiaroscuro,
 
 ## Role Mapping Warning
 
-**Primary** (`#6CD3DF`) is an unconventional mapping. Stitch's token model expects Primary to be near-black (light mode) or near-white (dark mode) for core text. Luminous cyan at HSL(186°, 64%, 65%) is neither — it is a vivid chromatic light color. Expect cyan-derived text, headings, and content tokens against the void canvas. The generated design will have glowing cyan typography rather than neutral white text.
+**Primary** (`#6CD3DF`) is an unconventional mapping. Stitch's token model expects Primary to be near-black (light mode) or near-white (dark mode) for core text. Luminous cyan at HSL(186°, 64%, 65%) is neither — it is a vivid chromatic light color. Expect cyan-derived text, headings, and content tokens against the void canvas.
 
 ## Tertiary Warning
 
-**Tertiary** (`#C78B50`) sits at HSL(30°, 52%, 55%) — S=52% is below the S≥60% threshold. The amber accent will likely produce a muted token family. The amber character is preserved but the CTA may appear less vivid than intended. To ensure reliable landing, nudge to HSL(30°, 62%, 52%): approximately `#CA8A3F`.
-
-## Observed Token Output
-
-> Not yet observed — generate and extract Tailwind config.
+**Tertiary** (`#C78B50`) sits at HSL(30°, 52%, 55%) — S=52% is below the S≥60% threshold. The amber accent will likely produce a muted token family. To ensure reliable landing, nudge to HSL(30°, 62%, 52%): approximately `#CA8A3F`.
 
 ## Notes
 
-This palette intentionally inverts the standard Stitch color hierarchy. The "Primary" role carries chromatic energy rather than neutral legibility — the entire aesthetic depends on glowing cyan against void black. This is not a standard light-on-dark or dark-on-light scheme; it is a luminance-from-source scheme where the canvas is absolute and the content glows.
+This palette intentionally inverts the standard Stitch color hierarchy. The aesthetic depends on glowing cyan against void black — a luminance-from-source scheme where the canvas is absolute and the content glows.

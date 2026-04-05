@@ -1,9 +1,15 @@
 ---
 name: "Copper Standard"
+entity: color-scheme
 slot: color-scheme
 type: deterministic
 mode: light
 tags: [copper, warm-gray, understated, material]
+prompt: >-
+  Primary #464646 dark charcoal for text and headings. Secondary #795548 copper brown for
+  supporting accent. Tertiary #795548 copper brown specified as CTA but system reassigned
+  to secondary. Neutral #F5F0EC warm off-white canvas. Note: copper earth tone was role-swapped
+  by system from Tertiary to Secondary based on chromatic properties.
 ---
 
 ## Color Roles
@@ -25,4 +31,4 @@ tags: [copper, warm-gray, understated, material]
 
 ## Notes
 
-This is an example of role swapping. The copper (#795548) was labeled as Tertiary (CTA driver) in DESIGN.md but the system interpreted it as a secondary support color based on its chromatic properties relative to the charcoal Primary. The LLM's semantic ordering (which color "should" be secondary vs tertiary) overrode the explicit label. Copper is a warm earth tone at moderate saturation — the system may treat earth tones as secondary/support rather than CTA-primary.
+Example of role swapping. Copper (#795548) was labeled as Tertiary (CTA driver) but the system interpreted it as secondary support based on chromatic properties. Earth tones at moderate saturation may be treated as secondary/support rather than CTA-primary.

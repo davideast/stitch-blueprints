@@ -3,10 +3,12 @@ name: "The Overline"
 entity: direction
 tags: [typography, eyebrow, label, hierarchy, editorial, uppercase]
 targets: editorial
-validated: false
+validated: true
+prompt: >-
+  The overline. Small uppercase label above an enormous headline. Category first, then
+  statement.
+invokes: []
 ---
-
-"The overline. Small uppercase label above an enormous headline. Category first, then statement."
 
 ## When to use
 Design leads with the headline without establishing context or category. The eyebrow/label exists but is too small to do its job as a framing device.

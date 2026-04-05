@@ -3,10 +3,11 @@ name: "Push to Dark"
 entity: direction
 tags: [cinematic-dark, dark-mode, accent, contrast, restraint]
 targets: cinematic-dark
-validated: false
+validated: true
+prompt: >-
+  Push to dark. One vivid accent against near-black. Every element earns its light.
+invokes: []
 ---
-
-"Push to dark. One vivid accent against near-black. Every element earns its light."
 
 ## When to use
 Design is light or neutral and needs to shift to cinematic dark mode with surgical color restraint.
